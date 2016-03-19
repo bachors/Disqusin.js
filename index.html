@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Title -->
+		<title>Disqus Feed - iBacor</title>
+		
+		<!-- Fontawesome -->
+		<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+		<!-- Custom style -->
+		<link type="text/css" rel="stylesheet" href="css/disqusin.css" />
+		<!-- Demo style-->
+		<style>
+			body{
+				background: #f1f1f1
+			}
+			
+			.anu{			
+				margin: 60px auto 15px;
+				width: 70%
+			}
+
+			@media only screen and (max-width: 766px) {
+				.anu{			
+					width: 100%
+				}
+			}
+		</style>
+		
+	</head>
+	<body>
+
+		<!-- Disqus feed -->
+		<div class="anu"></div>
+		
+		<a href="https://github.com/bachors/Disqusin.js" target="_BLANK"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="//code.jquery.com/jquery-2.2.1.min.js"></script>		
+		<script type="text/javascript" src="js/disqusin.js"></script>
+		<script>
+			// Install
+			$(document).ready(function(){
+				$(".anu").disqusin(
+					faroum_name = "bachors", // feed your disqus by forum name
+					username = "icanbachors", // https://disqus.com/by/icanbachors
+					limit = 5, // default & max 25
+					load_more = true, // true or false
+					api_key = "0f0ObE1yH3sxE4dmku0p5AaAM6KLQCpavAGcUpObe537RVd1Pi1K7NCTFwWJZ07d" // https://disqus.com/api/applications/
+				);
+			});
+		</script>
+
+	</body>
+</html>
