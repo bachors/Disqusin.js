@@ -12,4 +12,4 @@ jQuery plugin disqus feed & stream.
     );
 });</pre>
 
-<h2><a href="http://ibacor.com/disqus" target="_BLANK">DEMO</a></h2>
+<h2><a href="http://ibacor.com/sosmed/disqus" target="_BLANK">DEMO</a></h2>
